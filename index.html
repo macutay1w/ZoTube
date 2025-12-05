@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oktay Macutay - Kişisel Blog</title>
+    <style>
+        /* Genel Ayarlar */
+        body {
+            background-color: #000000; /* Arka plan siyah */
+            color: #e0e0e0; /* Yazı rengi açık gri (okunabilirlik için) */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Link Ayarları */
+        a {
+            color: #8ab4f8; /* Mavi tonu (koyu tema uyumlu) */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Konteyner */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #121212; /* İçerik alanı biraz daha açık siyah */
+            padding: 30px;
+            border: 1px solid #333;
+        }
+
+        /* Başlıklar */
+        h1 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        /* Wikipedia Tarzı Bilgi Kutusu (Infobox) */
+        .infobox {
+            float: right;
+            width: 300px;
+            background-color: #1e1e1e;
+            border: 1px solid #444;
+            padding: 10px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        .infobox-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            background-color: #2a2a2a;
+            padding: 5px;
+            margin: -10px -10px 10px -10px;
+        }
+
+        .infobox-image {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .infobox-image img {
+            max-width: 100px;
+            height: auto;
+            border: 1px solid #555;
+            padding: 5px;
+            background: #fff; /* Arma görünmesi için beyaz zemin */
+        }
+
+        .infobox table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .infobox th {
+            text-align: left;
+            padding: 5px;
+            vertical-align: top;
+            width: 40%;
+            color: #bbb;
+        }
+
+        .infobox td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        /* Uyarı Kutusu (Eksik Madde Uyarısı) */
+        .alert-box {
+            background-color: #2c2100;
+            border: 1px solid #b58900;
+            color: #ffda6a;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+        }
+        .alert-box strong {
+            margin-right: 5px;
+        }
+
+        /* İçerik Akışı */
+        .content {
+            margin-right: 330px; /* Infobox için yer aç */
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .infobox {
+                float: none;
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+            .content {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="alert-box">
+            <strong>Dikkat:</strong> Bu sayfadaki "Eleştiriler" başlığı tarafsız bir bakış açısıyla geliştirilmelidir.
+        </div>
+
+        <h1>Oktay Macutay</h1>
+
+        <div class="infobox">
+            <div class="infobox-title">Oktay Macutay</div>
+            
+            <div class="infobox-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Osmanli-nisani.svg/1200px-Osmanli-nisani.svg.png" alt="Osmanlı Arması">
+                <div style="font-size: 0.8em; margin-top:5px;">Arma Temsili</div>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Doğum Adı</th>
+                    <td>Oktay Macutay</td>
+                </tr>
+                <tr>
+                    <th>Diğer Adları</th>
+                    <td>Zaza</td>
+                </tr>
+                <tr>
+                    <th>Doğum</th>
+                    <td>1 Ocak 2007<br>Siverek, Şanlıurfa, Türkiye</td>
+                </tr>
+                <tr>
+                    <th>Ebeveyn</th>
+                    <td>Vatan</td>
+                </tr>
+                <tr>
+                    <th>Milliyet</th>
+                    <td><a href="#">Zaza</a></td>
+                </tr>
+                <tr>
+                    <th>Etnik Köken</th>
+                    <td><a href="#">Osmanlı İmparatorluğu</a></td>
+                </tr>
+                <tr>
+                    <th>Vatandaşlık</th>
+                    <td>Türkiye</td>
+                </tr>
+                <tr>
+                    <th>Etkin Yılları</th>
+                    <td>2019–2022</td>
+                </tr>
+                <tr>
+                    <th>Slogan</th>
+                    <td><em>"Yolumuz Allah Yoludur"</em></td>
+                </tr>
+                <tr>
+                    <th>Etkilendikleri</th>
+                    <td>
+                        <a href="#">Ahmet Kaya</a><br>
+                        <a href="#">Yılmaz Güney</a><br>
+                        <a href="#">Che Guevara</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="content">
+            <p><strong>Oktay Macutay</strong> (d. 1 Ocak 2007; Siverek, Şanlıurfa), Zaza kökenli bir kişiliktir. Kendisini "Zaza" lakabıyla tanıtmaktadır. 2019 ile 2022 yılları arasında aktif bir dönem geçirmiştir.</p>
+
+            <h2>Hayatı ve Görüşleri</h2>
+            <p>1 Ocak 2007 tarihinde Şanlıurfa'nın Siverek ilçesinde dünyaya gelmiştir. Etnik kökenini Osmanlı mirası ve Zaza kültürü ile bağdaştırmaktadır. Kişisel görüşlerinde ve duruşunda "Yolumuz Allah Yoludur" sloganını benimsemiştir.</p>
+            <p>Düşünce dünyasını şekillendiren isimler arasında protest müziğin önemli ismi <strong>Ahmet Kaya</strong>, sinema dünyasından <strong>Yılmaz Güney</strong> ve devrimci figür <strong>Che Guevara</strong> bulunmaktadır.</p>
+
+            <h2>Kariyeri</h2>
+            <p>Kariyer bilgileri şu an için güncellenmemiştir (----------). Ancak 2019-2022 yılları arasında belirli faaliyetlerde bulunduğu bilinmektedir.</p>
+
+            <h2>Eleştiriler</h2>
+            <p><em>Bu bölüm henüz tarafsız bir bakış açısıyla doldurulmamıştır. İçerik eklenmesi beklenmektedir.</em></p>
+
+            <h2>Kaynakça</h2>
+            <ul>
+                <li>Kişisel Beyanlar ve Nüfus Kayıtları.</li>
+            </ul>
+        </div>
+        
+        <div style="clear: both;"></div>
+    </div>
+
+</body>
+</html>
